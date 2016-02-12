@@ -1,0 +1,7 @@
+#!/bin/bash
+
+rm -r outUbuntu
+mkdir outUbuntu
+cd outUbuntu
+cmake ../src -G "Eclipse CDT4 - Unix Makefiles"
+make 
