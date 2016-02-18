@@ -2,7 +2,7 @@
 #include <iostream>
 #include <fstream>
 
-#ifdef __unix_
+#ifdef __unix__
 #include <GL/glew.h>
 
 #elif defined(_WIN32)

@@ -22,7 +22,7 @@ target_link_libraries(FluidSolver ${LIBS})
 endif()
 
 if (${CMAKE_SYSTEM_NAME} STREQUAL "Linux")
-target_link_libraries(FluidSolver GL GLEW GLU freeglut)	
+target_link_libraries(FluidSolver GL GLEW GLU glut)	
 endif()
 
 

@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-#ifdef __unix_
+#ifdef __unix__
 #define GLM_FORCE_RADIANS
 #include <GL/glew.h>
 #include <GL/glxew.h>
